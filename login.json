@@ -1,0 +1,21 @@
+[
+  {
+    "id": [
+      {
+        "id": 1,
+        "email": "test@test.nl",
+        "password": "test"
+      },
+      {
+        "id": 2,
+        "email": "test2@test.nl",
+        "password": "test2"
+      },
+      {
+        "id": 3,
+        "email": "test3@test.nl",
+        "password": "test3"
+      }
+    ]
+  }
+]

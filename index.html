@@ -1,0 +1,16 @@
+<script>
+fetch('login.json')
+  .then(res => res.json())
+  .then(data => {
+    const email1 = data[0].id[0].email;
+    const password1 = data[0].id[0].password;
+    const email2 = data[0].id[1].email;
+    const password2 = data[0].id[1].password;
+    const email3 = data[0].id[2].email;
+    const password3 = data[0].id[2].password;
+    console.log(`Email: ${email1}, Password: ${password1}`);
+    console.log(`Email: ${email2}, Password: ${password2}`);
+    console.log(`Email: ${email3}, Password: ${password3}`);
+  })
+  .catch(err => console.error(err));
+    </script>
